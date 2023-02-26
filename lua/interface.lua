@@ -8,3 +8,8 @@ vim.opt.smartindent=true
 vim.wo.colorcolumn="80,100"
 vim.opt.mouse="a"
 vim.opt.syntax="on"
+vim.opt.showmode=false
+vim.opt.ignorecase=true
+vim.opt.smartcase=true
+
+require('onedark').load()

@@ -16,4 +16,9 @@ return require('packer').startup(function(use)
 		  'nvim-tree/nvim-web-devicons', -- optional, for file icons
 	  }
   }
+  use {
+	  'nvim-lualine/lualine.nvim',
+	  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
+  use 'navarasu/onedark.nvim'
 end)
