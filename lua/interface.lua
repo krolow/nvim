@@ -11,5 +11,6 @@ vim.opt.syntax="on"
 vim.opt.showmode=false
 vim.opt.ignorecase=true
 vim.opt.smartcase=true
+vim.opt.termguicolors=true
 
 require('onedark').load()
