@@ -44,3 +44,5 @@ map("n", "<S-Tab>", "<<")
 map("v", "<Tab>", ">gv")
 map("v", "<S-Tab>", "<gv")
 
+-- Reload vim
+map("n", "<Leader>vr", ":luafile /home/krolow/.config/nvim/init.lua")
