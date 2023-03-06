@@ -12,5 +12,6 @@ vim.opt.showmode=false
 vim.opt.ignorecase=true
 vim.opt.smartcase=true
 vim.opt.termguicolors=true
+vim.opt.completeopt="longest,menuone"
 
 require('onedark').load()
