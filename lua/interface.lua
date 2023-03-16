@@ -12,6 +12,12 @@ vim.opt.showmode=false
 vim.opt.ignorecase=true
 vim.opt.smartcase=true
 vim.opt.termguicolors=true
-vim.opt.completeopt="longest,menuone"
+-- completeopt is used to manage code suggestions
+-- menuone: show popup even when there is only one suggestion
+-- noinsert: Only insert text when selection is confirmed
+-- noselect: force us to select one from the suggestions
+vim.opt.completeopt = {'menuone', 'noselect', 'noinsert', 'preview'}
+-- shortmess is used to avoid excessive messages
+vim.opt.shortmess = vim.opt.shortmess + { c = true}
 
 require('onedark').load()
