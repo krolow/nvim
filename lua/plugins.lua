@@ -60,4 +60,5 @@ return require('packer').startup(function(use)
 		requires = "nvim-tree/nvim-web-devicons",
 	}
 	use 'ray-x/go.nvim'
+	use 'github/copilot.vim'
 end)
